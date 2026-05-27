@@ -7,7 +7,7 @@ export default function Shop() {
     ];
 
     return (
-        <div className="relative w-full min-h-[calc(100vh-64px)] bg-black p-8 flex flex-col items-center">
+        <div className="relative w-full min-h-screen bg-black pt-24 px-8 pb-8 flex flex-col items-center">
             <h1 className="text-white text-4xl md:text-6xl font-black uppercase tracking-tighter my-12">
                 Official Shop
             </h1>

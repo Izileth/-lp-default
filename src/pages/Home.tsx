@@ -16,7 +16,7 @@ export default function Home() {
     }, []);
 
     return (
-        <div className="relative w-full h-[calc(100vh-64px)] bg-black overflow-hidden flex flex-col">
+        <div className="relative w-full min-h-screen bg-black overflow-hidden flex flex-col">
             {/* ── LEFT DOTS — hidden on small mobile ──────────── */}
             <div className="hidden sm:flex absolute left-3 md:left-4 top-1/2 -translate-y-1/2 z-30 flex-col gap-3">
                 {[0, 1, 2].map((i) => (
